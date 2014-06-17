@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git pull
+FILETOEDIT=dipbo_rev.tex
+echo $FILETOEDIT
+gvim --remote-silent $FILETOEDIT 
